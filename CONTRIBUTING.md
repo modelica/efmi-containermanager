@@ -1,6 +1,5 @@
 # Contributing and repository policy
 
-
 This project welcomes contributions and suggestions. Please follow the guidelines below before opening new issues or pull requests.
 
 ## Contributor license agreement
