@@ -28,4 +28,4 @@ Add example
 
 ## Contributing and repository policy
 
-Please consult the [CONTRIBUTING.md](Contributing.md) for details on how to report issues and contribute to the eFMI Container Manager.
+Please consult the `CONTRIBUTING.md` for details on how to report issues and contribute to the eFMI Container Manager.
