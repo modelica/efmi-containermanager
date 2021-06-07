@@ -26,6 +26,10 @@ Add example
 
 
 
-## Contributing and repository policy
+## Contributing, security and repository policies
 
-Please consult the `CONTRIBUTING.md` for details on how to report issues and contribute to the eFMI Container Manager.
+Please consult the [contributing guidelines](CONTRIBUTING.md) for details on how to report issues and contribute to the repository.
+
+For security issues, please consult the [security guidelines](SECURITY.md).
+
+General MAP eFMI repository setup and configuration policies are summarized in the [MAP eFMI repository policies](https://github.com/modelica/efmi-organization/wiki/Repositories#public-repository-policies) (only relevant for repository administrators and therefor private webpage).
