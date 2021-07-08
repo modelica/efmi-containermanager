@@ -1,2 +1,4 @@
 *.suo
-*obj*
+**/obj/*
+**/bin/*
+/packages/*
