@@ -72,7 +72,7 @@ eFMUContainerManager.CLI.exe \
 	--name PCC
 ```
 
-`PCC` must be a Production Code container providing an FMU. All content at the root of `my-eFMU.fmu` besides its `eFMU` directory is deleted (`--tidyroot` operation) and the content of the FMU provided by `PCC` is unpacked into the root of `my-eFMU.fmu`. The manifest of `PCC` is also updated to denote that its FMU is active. Any further `--delete` operation of `PCC` while its FMU is still active implicitly also performs `--tidyroot`.
+`PCC` must be a Production Code container providing an FMU. All content at the root of `my-eFMU.fmu` besides its `eFMU` directory is deleted (`--tidyroot` operation) and the content of the FMU provided by `PCC` is unpacked into the root of `my-eFMU.fmu`. The manifest of `PCC` is also updated to denote that its FMU is active. Any further `--delete` operation targetting `PCC` while its FMU is still active implicitly also performs `--tidyroot`.
 
 ## Contributing, security and repository policies
 
