@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright 2021 dSPACE GmbH
+ * Copyright (c) 2021, dSPACE GmbH, Modelica Association and contributors
  *
  * Licensed under the 3-Clause BSD license(the \"License\");    
  * you may not use this software except in compliance with    
