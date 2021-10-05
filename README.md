@@ -1,6 +1,6 @@
 # Repository overview
 
-This repository provides the source code of the _eFMI Container Manager_, a tool for creating, checking, reading and modifying eFMUs and their individual containers, like Behavioral Model, Algorithm Code and Production Code containers (cf. the [eFMI standard](https://efmi-standard.org) for details).
+This repository provides the source code of the _eFMI Container Manager_, a tool for creating, checking, reading and modifying eFMUs and their individual containers, like Behavioral Model, Algorithm Code and Production Code containers (cf. the [eFMI Standard](https://efmi-standard.org) for details).
 
 The eFMI Container Manager can be used to create new eFMUs, add additional containers to existing eFMUs or check containers for their consistency. The latter includes checks that container content is properly listed, checksums are correct, manifests satisfy their respective container-type XML Schema, trace links between containers are not broken etc.
 
