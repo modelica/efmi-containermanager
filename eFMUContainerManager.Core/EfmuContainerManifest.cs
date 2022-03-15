@@ -82,7 +82,7 @@ namespace eFMI.ContainerManager
             this.XsdVersion = EfmuContainerManifestProperties.ContainerManifestSchemaVersion;
             this.EfmiVersion = EfmuCommonManifestProperties.EfmiVersion;
             this.Name = name;
-            DateTime dateTime = DateTime.Now;
+            DateTime dateTime = DateTime.UtcNow; // UTC time is needed, because format string doesn't convert offset time.
             this.CreationDateAndTime = dateTime.ToString(EfmuCommonManifestProperties.GenerationDateAndTimeFormat);
 
             this.ValidateXmlTree = validateXmlTree;
@@ -120,7 +120,7 @@ namespace eFMI.ContainerManager
             rootElem.SetAttributeValue("name", Name);
 
             /* update creationDate set in constructor or read beforehand */
-            DateTime dateTime = DateTime.Now;
+            DateTime dateTime = DateTime.UtcNow; // UTC time is needed, because format string doesn't convert offset time.
             CreationDateAndTime = dateTime.ToString(EfmuCommonManifestProperties.GenerationDateAndTimeFormat);
             rootElem.SetAttributeValue(EfmuCommonManifestProperties.GenerationDateAndTime, CreationDateAndTime);
 
