@@ -24,7 +24,7 @@ namespace eFMI.ManifestsAndContainers.ManifestProperties
         /* Manifest element and other element with tool/date+time information */
         public const string GenerationTool = "generationTool";
         public const string GenerationDateAndTime = "generationDateAndTime";
-        public const string GenerationDateAndTimeFormat = "o";
+        public const string GenerationDateAndTimeFormat = "yyyy-MM-ddTHH:mm:ssZ";
 
         /* manifest file listing */
         public const string FilesElementName = "Files";
