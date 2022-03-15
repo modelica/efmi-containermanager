@@ -82,7 +82,7 @@ namespace eFMI.ContainerManager
             this.XsdVersion = EfmuContainerManifestProperties.ContainerManifestSchemaVersion;
             this.EfmiVersion = EfmuCommonManifestProperties.EfmiVersion;
             this.Name = name;
-            DateTime dateTime = DateTime.UtcNow;
+            DateTime dateTime = DateTime.UtcNow; // UTC time is needed, because format string doesn't convert offset time.
             this.CreationDateAndTime = dateTime.ToString(EfmuCommonManifestProperties.GenerationDateAndTimeFormat);
 
             this.ValidateXmlTree = validateXmlTree;
