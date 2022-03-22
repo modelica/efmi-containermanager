@@ -24,7 +24,7 @@ namespace eFMI.ManifestsAndContainers.ManifestProperties
         /* schema */
         public const string ProdCodeManifestSchemaDirName = "ProductionCode";
         public const string ProdCodeManifestSchemaFileName = "efmiProductionCodeManifest.xsd";
-        public const string ProdCodeManifestSchemaVersion = "0.16.0";
+        public const string ProdCodeManifestSchemaVersion = "0.17.0";
 
         public const string ProdCodeManifestCreatorToolName = "eFMUProdCodeManifestCreator";
 
