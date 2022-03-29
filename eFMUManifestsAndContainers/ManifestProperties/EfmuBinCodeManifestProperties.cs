@@ -24,7 +24,7 @@ namespace eFMI.ManifestsAndContainers.ManifestProperties
         /* schema */
         public const string BinCodeManifestSchemaDirName = "BinaryCode";
         public const string BinCodeManifestSchemaFileName = "efmiBinaryCodeManifest.xsd";
-        public const string BinCodeManifestSchemaVersion = "0.11.0";
+        public const string BinCodeManifestSchemaVersion = "0.12.0";
 
         /* element/attribute names used in manifest file */
 

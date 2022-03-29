@@ -23,7 +23,7 @@ namespace eFMI.ManifestsAndContainers.ManifestProperties
     {
         /* schema */
         public const string ContainerManifestSchemaFile = "efmiContainerManifest.xsd";
-        public const string ContainerManifestSchemaVersion = "0.9.0";
+        public const string ContainerManifestSchemaVersion = "0.10.0";
 
         /* manifest file */
         public const string ContainerManifestFileName = "__content.xml";
