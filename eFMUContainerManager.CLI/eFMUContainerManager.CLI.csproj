@@ -86,7 +86,7 @@
 		<Copy SourceFiles="..\LICENSE" DestinationFolder="$(OutputPath)"/>
 		<ZipDirectory
 			SourceDirectory="$(OutputPath)"
-            DestinationFile="$(OutputPath)\..\eFMI-Container-Manager-1-0-0.zip"
+            DestinationFile="$(OutputPath)\..\eFMI-Container-Manager-1-0-1.zip"
 		/>
 	</Target>
 </Project>
